@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Activity_01</title>
+</head>
+<body>
+    <nav class="  bg-green-700 h-30 w-screen">
+        <div class="nav-top flex justify-center items-center pt-4 pb-4 text-white text-2xl">
+            <p>Welcome to your Website Task</p>
+
+        </div>
+        <div class="nav-bottom flex justify-center items-center">
+            <ul class="flex justify-center items-center gap-8 text-white text-1xl ">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- nav end -->
+     <div class="section mt-4 bg-white h-90 w-screen">
+        <div class="body1 flex justify-between ">
+            <div class="div1 m-4 p-4  border rounded border-white  h-40 w-130 shadow-xl ">
+                <h1 class="text-green-700 font-bold">About CSS</h1>
+                <p class="text-black text-1xl">Cascading style sheets(CSS) allow you to style and layout your website pages ,adding colors .spacing and more</p>
+            </div>
+            <div class="div2  m-4 p-4  border rounded border-white h-40 w-130 shadow-xl">
+                <h1 class="text-green-700 font-bold">Box Model</h1>
+                <p class="text-black text-1xl">The CSS box model is a way to define how HTML elements are structured and displayed on a web page. It's a key part of using CSS to design websites. </p>
+            </div>
+        </div>
+        <div class="body2  m-4 border rounded border-white h-40 w-130 shadow-xl">
+            <h1 class="text-green-700 p-4 font-bold">Responsive Design</h1>
+            <p class="text-black text-1xl pl-4 ">Responsive design is a web design approach that makes websites and apps look good and work well on different devices and screen sizes. </p>
+
+        </div>
+     </div>
+
+     <!-- body end -->
+      <div class="footer bg-black h-screen w-screen flex justify-center pt-8 text-1xl mt-8">
+        <p class="text-white">Created by [Nikhil Kumar] | Follow us on </p>
+        <p class="text-white pl-3">Instagram <span class="text-green-700">|</span> Twitter <span class="text-green-700">|</span> linked </p>
+        <hr class="text-white">
+      </div>
+      
+    
+</body>
+</html>
