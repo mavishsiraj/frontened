@@ -43,7 +43,7 @@
 
      <!-- body end -->
       <div class="footer bg-black h-screen w-screen flex justify-center pt-8 text-1xl mt-8">
-        <p class="text-white">Created by [Nikhil Kumar] | Follow us on </p>
+        <p class="text-white">Created by [taiba siraj] | Follow us on </p>
         <p class="text-white pl-3">Instagram <span class="text-green-700">|</span> Twitter <span class="text-green-700">|</span> linked </p>
         <hr class="text-white">
       </div>
